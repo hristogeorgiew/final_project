@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Calibri, sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 95vh;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid darkgreen;
+}
+header{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer{
+    position : absolute;
+    bottom : 0;
+    width: 99%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.labelName{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    float: left;
+}
+.inputs{
+    display: inline-block;
+    width: 49%;
+    float: right;
+}
+.btnDiv{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.result{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.warning{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: red;
+}
+.btn {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: forestgreen;
+    color: white;
+    width: 130px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+label{
+    font-weight: bold;
+}
